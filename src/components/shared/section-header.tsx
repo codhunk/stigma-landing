@@ -33,11 +33,11 @@ export function SectionHeader({
           <Badge variant="accent">{eyebrow}</Badge>
         </div>
       )}
-      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
         {title}
       </h2>
       {description && (
-        <p className="mt-4 text-base sm:text-lg text-neutral-400 leading-relaxed">
+        <p className="mt-4 text-base sm:text-lg text-neutral-400">
           {description}
         </p>
       )}

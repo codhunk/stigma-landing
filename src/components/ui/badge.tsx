@@ -12,7 +12,7 @@ export function Badge({
   ...props
 }: BadgeProps) {
   const baseStyles =
-    "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium tracking-wide";
+    "inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium";
 
   const variants = {
     default: "bg-neutral-800 text-neutral-200 border border-neutral-700/60",

@@ -5,7 +5,7 @@ export function LogosSection() {
   return (
     <div className="border-y border-neutral-800/80 bg-neutral-950/40 py-10">
       <Container>
-        <p className="text-center text-xs font-semibold uppercase tracking-wider text-neutral-500 mb-6">
+        <p className="text-center text-xs font-semibold uppercase text-neutral-500 mb-6">
           Powering data infrastructure for top engineering teams worldwide
         </p>
 
@@ -18,7 +18,7 @@ export function LogosSection() {
               <div className="h-6 w-6 rounded bg-neutral-800 border border-neutral-700 flex items-center justify-center text-[10px] font-bold text-neutral-400 group-hover:text-emerald-400 group-hover:border-emerald-500/40">
                 {brand.label.slice(0, 2)}
               </div>
-              <span className="font-mono text-sm tracking-wider font-semibold text-neutral-400 group-hover:text-neutral-200">
+              <span className="font-mono text-sm font-semibold text-neutral-400 group-hover:text-neutral-200">
                 {brand.label}
               </span>
             </div>

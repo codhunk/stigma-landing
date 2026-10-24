@@ -8,7 +8,7 @@ export function MetricsSection() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {metricsData.map((metric) => (
             <div key={metric.label} className="p-4">
-              <div className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">
+              <div className="text-4xl sm:text-5xl lg:text-6xl font-black bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">
                 {metric.value}
               </div>
               <div className="mt-3 text-base sm:text-lg font-semibold text-white">

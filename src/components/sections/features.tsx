@@ -68,13 +68,13 @@ export function FeaturesSection() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
-            <span className="text-xs font-bold text-blue-600 uppercase tracking-widest">
+            <span className="text-xs font-bold text-blue-600 uppercase">
               Core Academic Engine
             </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1">
               8 Essential Operational Pillars
             </h2>
-            <p className="text-base text-slate-600 mt-2 max-w-2xl leading-relaxed">
+            <p className="text-base text-slate-600 mt-2 max-w-2xl">
               A unified suite replacing disparate point solutions. Zero data silos, instant multi-tenant sync, and frictionless administration.
             </p>
           </div>
@@ -117,7 +117,7 @@ export function FeaturesSection() {
                     {pillar.title}
                   </h3>
 
-                  <p className="text-sm text-[#45464d] leading-relaxed">
+                  <p className="text-sm text-[#45464d]">
                     {pillar.description}
                   </p>
                 </div>

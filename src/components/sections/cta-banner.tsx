@@ -13,16 +13,16 @@ export function CtaBannerSection() {
           <div className="max-w-3xl relative z-10 flex flex-col gap-6">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-950/80 rounded-full w-fit border border-blue-500/30">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-              <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider">
+              <span className="text-xs font-bold text-emerald-400 uppercase">
                 Immediate Institutional Provisioning
               </span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white">
               Bring Your Entire Academic Institution Together.
             </h2>
 
-            <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
+            <p className="text-base sm:text-lg text-slate-300">
               Eliminate operational silos, accelerate fee cashflow, and empower your educators with the modern operating standard for forward-thinking leadership.
             </p>
 

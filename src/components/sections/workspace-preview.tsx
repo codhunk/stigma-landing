@@ -11,10 +11,10 @@ export function WorkspacePreviewSection() {
       <div className="max-w-[1680px] mx-auto px-4 sm:px-8">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="text-xs font-bold text-blue-600 uppercase tracking-widest">
+          <span className="text-xs font-bold text-blue-600 uppercase">
             Persona Tailored Workspaces
           </span>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-1">
             Precise Views for Every Academic Stakeholder
           </h2>
           <p className="text-base text-slate-600 mt-2">
@@ -71,7 +71,7 @@ export function WorkspacePreviewSection() {
             <div className="flex flex-col gap-6 animate-in fade-in duration-200">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
                 <div>
-                  <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-blue-600 uppercase">
                     Central Governance Console
                   </span>
                   <h3 className="text-2xl font-bold text-slate-900">
@@ -169,7 +169,7 @@ export function WorkspacePreviewSection() {
             <div className="flex flex-col gap-6 animate-in fade-in duration-200">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
                 <div>
-                  <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-blue-600 uppercase">
                     Classroom Management
                   </span>
                   <h3 className="text-2xl font-bold text-slate-900">
@@ -227,7 +227,7 @@ export function WorkspacePreviewSection() {
             <div className="flex flex-col gap-6 animate-in fade-in duration-200">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
                 <div>
-                  <span className="text-xs font-bold text-blue-600 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-blue-600 uppercase">
                     Guardian & Scholar Portal
                   </span>
                   <h3 className="text-2xl font-bold text-slate-900">

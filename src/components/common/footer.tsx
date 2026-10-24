@@ -25,7 +25,7 @@ export function Footer() {
       <div className="max-w-[1680px] mx-auto px-4 sm:px-8 mb-16">
         <div className="rounded-2xl bg-slate-900 border border-slate-800 p-8 sm:p-10 flex flex-col lg:flex-row items-center justify-between gap-6 shadow-xl">
           <div className="max-w-xl text-center lg:text-left">
-            <span className="text-xs font-bold text-blue-400 uppercase tracking-wider">
+            <span className="text-xs font-bold text-blue-400 uppercase">
               Institutional Intelligence Dispatch
             </span>
             <h3 className="text-xl sm:text-2xl font-bold text-white mt-1">
@@ -75,16 +75,16 @@ export function Footer() {
                 <span className="font-black text-lg">E</span>
               </div>
               <div className="flex flex-col">
-                <span className="font-extrabold text-lg text-white tracking-tight leading-none">
+                <span className="font-extrabold text-lg text-white">
                   {siteConfig.name}
                 </span>
-                <span className="text-[10px] font-bold text-blue-400 uppercase tracking-widest mt-0.5">
+                <span className="text-[10px] font-bold text-blue-400 uppercase mt-0.5">
                   {siteConfig.badge}
                 </span>
               </div>
             </div>
 
-            <p className="text-sm text-slate-400 leading-relaxed max-w-sm mt-1">
+            <p className="text-sm text-slate-400 max-w-sm mt-1">
               Unified high-precision operating system engineered for universities, colleges, and multi-campus institutions. Modernizing governance, registration, and academic workflows.
             </p>
 
@@ -116,7 +116,7 @@ export function Footer() {
           {/* 4 Directory Columns */}
           {footerNav.map((col) => (
             <div key={col.title} className="flex flex-col gap-3">
-              <span className="text-xs font-bold uppercase tracking-wider text-slate-200">
+              <span className="text-xs font-bold uppercase text-slate-200">
                 {col.title}
               </span>
               <div className="flex flex-col space-y-2.5">

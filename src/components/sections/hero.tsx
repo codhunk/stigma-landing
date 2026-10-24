@@ -47,13 +47,13 @@ export function HeroSection() {
           {/* Eyebrow Pill */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-blue-50/90 rounded-full border border-blue-200/80 shadow-xs backdrop-blur-md">
             <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse" />
-            <span className="text-[11px] font-bold text-blue-700 uppercase tracking-wider">
+            <span className="text-[11px] font-bold text-blue-700 uppercase">
               {siteConfig.pillText}
             </span>
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-[1.12]">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900">
             One Unified OS. Every Institution.{" "}
             <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-emerald-600 bg-clip-text text-transparent">
               Complete Control.
@@ -61,7 +61,7 @@ export function HeroSection() {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed">
+          <p className="text-base sm:text-lg text-slate-600 max-w-2xl">
             {siteConfig.description}
           </p>
 

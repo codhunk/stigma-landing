@@ -27,7 +27,7 @@ export function TestimonialsSection() {
                     <Star key={i} className="h-4 w-4 fill-emerald-400" />
                   ))}
                 </div>
-                <blockquote className="text-neutral-300 text-sm sm:text-base leading-relaxed italic">
+                <blockquote className="text-neutral-300 text-sm sm:text-base italic">
                   &ldquo;{item.quote}&rdquo;
                 </blockquote>
               </CardContent>

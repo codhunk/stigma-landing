@@ -9,10 +9,10 @@ export function BrandLogo() {
         <GraduationCap className="h-5 w-5 text-white" />
       </div>
       <div className="flex flex-col">
-        <span className="font-extrabold text-lg text-slate-900 tracking-tight leading-none group-hover:text-blue-600 transition-colors">
+        <span className="font-extrabold text-lg text-slate-900 group-hover:text-blue-600 transition-colors">
           {siteConfig.name}
         </span>
-        <span className="text-[10px] font-bold text-blue-600 uppercase tracking-widest mt-0.5">
+        <span className="text-[10px] font-bold text-blue-600 uppercase mt-0.5">
           {siteConfig.badge}
         </span>
       </div>

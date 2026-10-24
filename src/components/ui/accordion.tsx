@@ -35,7 +35,7 @@ export function AccordionItem({
       </button>
       <div
         className={cn(
-          "grid transition-all duration-200 ease-in-out text-sm text-neutral-400 leading-relaxed overflow-hidden",
+          "grid transition-all duration-200 ease-in-out text-sm text-neutral-400 overflow-hidden",
           isOpen ? "grid-rows-[1fr] opacity-100 pt-2 pb-2" : "grid-rows-[0fr] opacity-0"
         )}
       >

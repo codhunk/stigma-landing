@@ -80,7 +80,7 @@ export function ThemeSwitcher() {
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 rounded-xl border border-[var(--theme-border)] bg-[var(--theme-surface)] p-1.5 shadow-xl backdrop-blur-xl z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-          <div className="px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-[var(--theme-muted)]">
+          <div className="px-2 py-1 text-[10px] font-bold uppercase text-[var(--theme-muted)]">
             Select Visual Theme
           </div>
           <div className="space-y-0.5 mt-1">
