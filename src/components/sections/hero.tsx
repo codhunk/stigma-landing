@@ -152,7 +152,7 @@ export function HeroSection() {
                 </div>
                 <span className="ml-1 sm:ml-3 text-[11px] sm:text-xs text-slate-600 font-mono flex items-center gap-1.5 bg-white px-2.5 sm:px-3 py-1 rounded-md border border-slate-200 truncate">
                   <Lock className="h-3 w-3 text-blue-600 shrink-0" />
-                  <span className="truncate">edumanage.cloud/console/v4.2</span>
+                  <span className="truncate">stigma.cloud/console/v4.2</span>
                 </span>
               </div>
               <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">

@@ -72,7 +72,7 @@ export function Footer() {
           <div className="col-span-2 flex flex-col gap-4">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shrink-0">
-                <span className="font-black text-lg">E</span>
+                <span className="font-black text-lg">S</span>
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-lg text-white">
@@ -149,7 +149,7 @@ export function Footer() {
           <div className="flex items-center justify-center gap-3">
             <Link
               href="#"
-              aria-label="EduManage Twitter"
+              aria-label="Stigma Twitter"
               className="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-slate-700 transition-colors shadow-xs"
             >
               <svg className="h-3.5 w-3.5 fill-current" viewBox="0 0 24 24">
@@ -158,7 +158,7 @@ export function Footer() {
             </Link>
             <Link
               href="#"
-              aria-label="EduManage LinkedIn"
+              aria-label="Stigma LinkedIn"
               className="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-slate-700 transition-colors shadow-xs"
             >
               <svg className="h-3.5 w-3.5 fill-current" viewBox="0 0 24 24">
@@ -167,7 +167,7 @@ export function Footer() {
             </Link>
             <Link
               href="#"
-              aria-label="EduManage GitHub"
+              aria-label="Stigma GitHub"
               className="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-slate-700 transition-colors shadow-xs"
             >
               <svg className="h-4 w-4 fill-current" viewBox="0 0 24 24">
@@ -176,7 +176,7 @@ export function Footer() {
             </Link>
             <Link
               href="#"
-              aria-label="EduManage YouTube"
+              aria-label="Stigma YouTube"
               className="w-8 h-8 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-slate-700 transition-colors shadow-xs"
             >
               <svg className="h-4 w-4 fill-current" viewBox="0 0 24 24">

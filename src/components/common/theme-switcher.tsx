@@ -27,7 +27,7 @@ export function ThemeSwitcher() {
 
   React.useEffect(() => {
     setMounted(true);
-    const saved = localStorage.getItem("edumanage_theme") as ThemeName | null;
+    const saved = localStorage.getItem("stigma_theme") as ThemeName | null;
     if (saved && ["default", "emerald", "violet", "dark"].includes(saved)) {
       setCurrentTheme(saved);
       document.documentElement.setAttribute("data-theme", saved);
@@ -46,7 +46,7 @@ export function ThemeSwitcher() {
 
   const selectTheme = (theme: ThemeName) => {
     setCurrentTheme(theme);
-    localStorage.setItem("edumanage_theme", theme);
+    localStorage.setItem("stigma_theme", theme);
     if (theme === "default") {
       document.documentElement.removeAttribute("data-theme");
     } else {

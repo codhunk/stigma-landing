@@ -6,7 +6,7 @@ import { WorkspacePreviewSection } from "@/components/sections/workspace-preview
 import { PricingSection } from "@/components/sections/pricing";
 import { CtaBannerSection } from "@/components/sections/cta-banner";
 
-export default function EduManageLandingPage() {
+export default function StigmaLandingPage() {
   return (
     <div className="flex min-h-screen flex-col bg-white text-slate-900">
       {/* Sticky High-Contrast Header */}
