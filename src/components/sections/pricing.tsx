@@ -20,18 +20,18 @@ export function PricingSection() {
         </div>
 
         {/* 3-Card Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-stretch max-w-lg lg:max-w-none mx-auto">
           {pricingPlans.map((plan) => (
             <div
               key={plan.id}
-              className={`bg-white p-7 sm:p-8 rounded-2xl flex flex-col justify-between transition-all relative ${
+              className={`bg-white p-6 sm:p-8 rounded-2xl flex flex-col justify-between transition-all relative ${
                 plan.isPopular
-                  ? "shadow-2xl shadow-blue-600/15 border-2 border-blue-600 -translate-y-1.5 ring-4 ring-blue-500/10"
+                  ? "shadow-2xl shadow-blue-600/15 border-2 border-blue-600 lg:-translate-y-1.5 ring-4 ring-blue-500/10"
                   : "shadow-sm border border-slate-200 hover:shadow-lg"
               }`}
             >
               {plan.isPopular && (
-                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-blue-600 text-white px-5 py-1 rounded-full text-xs font-bold uppercase shadow-md flex items-center gap-1.5">
+                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-blue-600 text-white px-4 sm:px-5 py-1 rounded-full text-[11px] sm:text-xs font-bold uppercase shadow-md flex items-center gap-1.5 whitespace-nowrap">
                   <Star className="h-3.5 w-3.5 fill-white" />
                   MOST POPULAR
                 </div>
@@ -60,7 +60,7 @@ export function PricingSection() {
                 <div className="mb-6">
                   <div className="flex items-baseline gap-1">
                     <span
-                      className={`text-4xl font-black ${
+                      className={`text-3xl sm:text-4xl font-black ${
                         plan.isPopular ? "text-blue-600" : "text-slate-900"
                       }`}
                     >

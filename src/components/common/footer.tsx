@@ -43,7 +43,7 @@ export function Footer() {
                 Thank you! You are subscribed to the Institutional Intelligence Dispatch.
               </div>
             ) : (
-              <form onSubmit={handleSubscribe} className="flex items-center gap-2 w-full max-w-md mx-auto lg:mx-0">
+              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-2 w-full max-w-md mx-auto lg:mx-0">
                 <input
                   type="email"
                   required
@@ -54,7 +54,7 @@ export function Footer() {
                 />
                 <button
                   type="submit"
-                  className="h-11 px-5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-bold transition-all flex items-center gap-1.5 shrink-0 shadow-sm cursor-pointer"
+                  className="h-11 px-5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-bold transition-all flex items-center justify-center gap-1.5 shrink-0 shadow-sm cursor-pointer w-full sm:w-auto"
                 >
                   <span>Subscribe</span>
                   <ArrowRight className="h-3.5 w-3.5" />
@@ -67,11 +67,11 @@ export function Footer() {
 
       {/* Main Directory Links */}
       <div className="w-full max-w-[1680px] mx-auto px-4 sm:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mb-16">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 sm:gap-10 mb-16">
           {/* Brand & Mission Statement */}
-          <div className="lg:col-span-2 flex flex-col gap-4">
+          <div className="col-span-2 flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md">
+              <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-md shrink-0">
                 <span className="font-black text-lg">E</span>
               </div>
               <div className="flex flex-col">
@@ -140,13 +140,13 @@ export function Footer() {
         </div>
 
         {/* Sub-footer */}
-        <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-slate-400">
+        <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-slate-400 text-center md:text-left">
           <div>
             <span>{siteConfig.copyright}</span>
           </div>
 
           {/* Social media icons */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center gap-3">
             <Link
               href="#"
               aria-label="EduManage Twitter"
@@ -185,7 +185,7 @@ export function Footer() {
             </Link>
           </div>
 
-          <div className="flex items-center gap-6 font-medium">
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-6 gap-y-2 font-medium">
             <Link href="#" className="hover:text-white transition-colors">
               Privacy Policy
             </Link>

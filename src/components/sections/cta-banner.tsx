@@ -26,19 +26,19 @@ export function CtaBannerSection() {
               Eliminate operational silos, accelerate fee cashflow, and empower your educators with the modern operating standard for forward-thinking leadership.
             </p>
 
-            <div className="flex flex-wrap items-center gap-4 pt-2">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 pt-2">
               <Link
                 href="#pricing"
-                className="px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-lg shadow-blue-600/30 hover:shadow-xl transition-all flex items-center gap-2 cursor-pointer"
+                className="px-6 sm:px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-lg shadow-blue-600/30 hover:shadow-xl transition-all flex items-center justify-center gap-2 cursor-pointer w-full sm:w-auto text-center"
               >
-                <CheckCircle2 className="h-4 w-4" />
-                Start Institutional Trial
+                <CheckCircle2 className="h-4 w-4 shrink-0" />
+                <span>Start Institutional Trial</span>
               </Link>
               <Link
                 href="#contact"
-                className="px-7 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-bold text-sm transition-all"
+                className="px-6 sm:px-7 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-bold text-sm transition-all flex items-center justify-center w-full sm:w-auto text-center"
               >
-                Consult with Campus Architects
+                <span>Consult with Campus Architects</span>
               </Link>
             </div>
           </div>
